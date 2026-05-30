@@ -1,4 +1,4 @@
-<img width="1208" height="4725" alt="localhost_5173_" src="https://github.com/user-attachments/assets/e17e648d-6505-4582-9f03-7816a0d3336c" />
+<img width="1208" height="4725" alt="localhost_5173_" src="https://github.com/user-attachments/assets/e17e648d-6505-4582-9f03-7816a0d3336c" /><br>
 # Satellite Image Interpretation & Environmental Analysis System
 
 An AI-powered satellite image analysis platform built with Flask, PyTorch-ready service abstractions, Hugging Face-compatible report generation hooks, React, Tailwind CSS, Chart.js, React Leaflet, and ReportLab.
