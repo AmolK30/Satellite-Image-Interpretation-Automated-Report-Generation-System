@@ -1,0 +1,22 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      - SECRET_KEY=${SECRET_KEY:-change-me}
+      - DATABASE_URL=${DATABASE_URL:-sqlite:////app/satellite_analysis.db}
+      - UPLOAD_FOLDER=/app/uploads
+      - REPORT_FOLDER=/app/reports
+      - ENABLE_HF_MODELS=${ENABLE_HF_MODELS:-false}
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://localhost:5000/api}
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
