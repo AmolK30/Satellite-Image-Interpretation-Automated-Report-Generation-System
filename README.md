@@ -5,7 +5,7 @@ An AI-powered satellite image analysis platform built with Flask, PyTorch-ready 
 
 ## Features
 
-- Satellite image upload with validation for JPG, PNG, TIFF, and GeoTIFF-style inputs
+- Satellite image upload with validation for JPG, PNG, TIFF, and GeoTIFF-style inputs of satellite images
 - Land-cover classification and percentage distribution analysis
 - Environmental scoring and disaster-risk assessment
 - Structured analytical report generation
